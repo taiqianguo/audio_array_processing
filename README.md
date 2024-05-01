@@ -19,3 +19,5 @@ the simulation result shows below: after detect the max correlation point the ma
 <img width="1121" alt="image" src="https://github.com/taiqianguo/audio_array_processing/assets/58079218/cadbde5a-d5a5-45db-a17e-f230730b0a62">
 
 Saidly, this first version do not provide parallel acceleration of the culculation , and could theoritically use more statistical method like differential point detctions.
+
+In this deign the most inefficient part on FPGA is the sequencial execution of correlation process, which requires high computational complexity.
