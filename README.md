@@ -3,7 +3,7 @@ An angle detection FPGA implementation with two audio reciever based on AoA(angl
 
 The project use matlab to approximate and simualate the propagation of vioce signal in free space and using two reciver to accept signal for futher processigng.
 And to get processing result , the princple is illustrated below, the main part is using cross correlation to detect the delay of signal between two reciever.
- <img width="400" alt="https://github.com/taiqianguo/audio_array_processing/assets/58079218/6f676eed-b1fa-4372-94f2-407abddbe911">
+<img width="400" alt="image" src="https://github.com/taiqianguo/audio_array_processing/assets/58079218/6f676eed-b1fa-4372-94f2-407abddbe911">
 
  The matlab simulation result shows below:
 <img width="1130" alt="image" src="https://github.com/taiqianguo/audio_array_processing/assets/58079218/1f56cba0-76af-4e53-b3f4-3427685b16b9">
